@@ -14,6 +14,7 @@ class NetworkController extends GlobalController {
 
   @override
   void tif() {
+    //   init code here
     // ... (the rest of your code goes here)
   }
 
