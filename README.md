@@ -13,7 +13,7 @@ class NetworkController extends GlobalController {
   late StreamSubscription _subscription;
 
   @override
-  void onInit() {
+  void tif() {
     // ... (the rest of your code goes here)
   }
 
