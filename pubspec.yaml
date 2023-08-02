@@ -1,0 +1,32 @@
+name: globalcontroller
+description: |
+  GlobalController is a powerful Flutter package designed to simplify state management in your applications. With GlobalController, you can easily manage and share data across different screens and widgets without the need for complex and boilerplate code.
+
+  Key Features:
+  - Easily store and retrieve global data, such as user authentication status, theme preferences, or language settings, from anywhere in your app.
+  - Minimize the need for prop drilling or widget nesting by accessing global state directly.
+  - Automatic state updates: When you modify the global state, all connected widgets will automatically be notified and updated accordingly.
+  - Supports reactive programming with streams and observables to streamline UI updates.
+  - Well-integrated with GetX, a powerful package for Flutter state management, making it easy to use and integrate with existing GetX projects.
+  - Simple and intuitive API with a minimal learning curve, making it suitable for both beginners and experienced developers.
+  - Designed to be efficient and performant, ensuring your app remains smooth and responsive even with large-scale state management.
+
+  Whether you're building a small personal project or a large-scale application, GlobalController will make state management a breeze and help you build more maintainable and scalable Flutter apps.
+
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
